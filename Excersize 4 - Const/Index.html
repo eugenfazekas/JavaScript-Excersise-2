@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
+	  <meta charset="utf-8" />
+</head>
+<body>			
+	<script src="script.js"></script>
+	<div>
+	Redeclaring a JavaScript var variable is allowed anywhere in a program:
+	
+	Redeclaring or reassigning an existing var or let variable to const, in the same scope, or in the same block, is not allowed:
+	
+	Redeclaring or reassigning an existing const variable, in the same scope, or in the same block, is not allowed:
+	
+	Redeclaring a variable with const, in another scope, or in another block, is allowed:
+	
+	Hoisting
+	Variables defined with var are hoisted to the top and can be initialized at any time (if you don't know what Hoisting is, read our Hoisting Chapter).
+
+	Meaning: You can use the variable before it is declared:
+	
+	Variables defined with const are hoisted to the top of the block, but not initialized.
+
+	Meaning: The block of code is aware of the variable, but it cannot be used until it has been declared.
+
+	Using a const variable before it is declared will result in a SyntaxError.
+
+	The variable is in a "temporal dead zone" from the start of the block until it is declared:
+	</div>
+</body>
+</html> 
